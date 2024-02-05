@@ -1,5 +1,11 @@
+import Header from './Header';
+
 function App() {
-  return <div>Furniture Shop</div>;
+  return (
+    <>
+      <Header />
+    </>
+  );
 }
 
 export default App;

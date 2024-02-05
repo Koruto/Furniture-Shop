@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Noto+Serif+JP:wght@700&display=swap');
+
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -10,5 +14,8 @@
 
 .body, #root{
   height: 100vh;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
