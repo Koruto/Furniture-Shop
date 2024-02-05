@@ -49,7 +49,7 @@ const Header = () => {
         </div>
         <img
           className="h-[666px]"
-          src="../public/furniture.png"
+          src={'/static/images/furniture.png'}
           alt="Furniture Image"
         />
         <div

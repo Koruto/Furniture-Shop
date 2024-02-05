@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Noto+Serif+JP:wght@700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Noto+Serif+JP:wght@700&display=swap');
 
 
 :root {
