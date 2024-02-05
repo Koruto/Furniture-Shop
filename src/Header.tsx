@@ -39,7 +39,7 @@ const Header = () => {
           {renderLuDots()}
         </div>
         <div className="bg-white bg-opacity-40 z-10 -mr-52 w-[570px] h-[450px] p-16 backdrop-blur-xl space-y-4 ">
-          <h3 className="text-7xl w-100 font-notoJP font-bold text-primary">
+          <h3 className="text-6xl tracking-tighter leading-[72px] w-[400px] font-notoJP font-bold text-primary">
             We Help You Make Modern Interior
           </h3>
           <p className="w-[280px]">
