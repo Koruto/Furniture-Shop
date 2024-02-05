@@ -2,8 +2,17 @@ import { IoIosArrowRoundDown } from 'react-icons/io';
 import { CgDetailsMore } from 'react-icons/cg';
 import { CiSearch } from 'react-icons/ci';
 import { MdKeyboardArrowUp, MdKeyboardArrowDown } from 'react-icons/md';
+import { LuDot } from 'react-icons/lu';
 
 const Header = () => {
+  const renderLuDots = () => {
+    const luDots = [];
+    for (let i = 0; i < 56; i++) {
+      luDots.push(<LuDot key={i} />);
+    }
+    return luDots;
+  };
+
   return (
     <header className="mt-5">
       <nav className="flex flex-row justify-between mx-20 my-4">
@@ -26,7 +35,10 @@ const Header = () => {
         </ul>
       </nav>
       <div className="flex flex-row justify-end items-center mx-6">
-        <div className="bg-white bg-opacity-40 z-10 -mr-52 w-[570px] h-[470px] p-16 backdrop-blur-xl space-y-4 ">
+        <div className="grid grid-cols-7 absolute left-[230px] top-[90px] z-20">
+          {renderLuDots()}
+        </div>
+        <div className="bg-white bg-opacity-40 z-10 -mr-52 w-[570px] h-[450px] p-16 backdrop-blur-xl space-y-4 ">
           <h3 className="text-7xl w-100 font-notoJP font-bold text-primary">
             We Help You Make Modern Interior
           </h3>
