@@ -1,3 +1,4 @@
+import About from './About';
 import Clients from './Clients';
 import Deals from './Deals';
 import Header from './Header';
@@ -8,6 +9,7 @@ function App() {
       <Header />
       <Clients />
       <Deals />
+      <About />
     </>
   );
 }

@@ -1,8 +1,8 @@
-import Microsoft from '../public/static/images/Microsoft.png';
-import Entrepreneur from '../public/static/images/Entrepreneur.png';
-import Fortune from '../public/static/images/Fortune.png';
-import Business_Web from '../public/static/images/Business_web.png';
-import Mashable from '../public/static/images/Mashable.png';
+import Microsoft from '../public/static/images/Microsoft.svg';
+import Entrepreneur from '../public/static/images/Entrepreneur.svg';
+import Fortune from '../public/static/images/Fortune.svg';
+import Business_Web from '../public/static/images/Business_web.svg';
+import Mashable from '../public/static/images/Mashable.svg';
 
 const Clients = () => {
   return (
