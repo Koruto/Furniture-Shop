@@ -1,5 +1,5 @@
-import Fire from '../public/static/images/fire.svg';
-import Bullet_Point from '../public/static/images/bullet_point.svg';
+import Fire from './svg/fire.svg';
+import Bullet_Point from './svg/bullet_point.svg';
 
 const Deals = () => {
   return (
