@@ -4,13 +4,14 @@ export default {
   theme: {
     textColor: {
       primary: '#244D4D',
-      secondary: '#ffed4a',
+      secondary: '#F4F6F6',
       danger: '#e3342f',
     },
     extend: {
       fontFamily: {
         notoJP: ['Noto Serif JP', 'serif'],
         monts: ['Montserrat', 'sans-serif'],
+        open: ['Open Sans', 'sans-serif'],
       },
     },
   },
