@@ -4,6 +4,8 @@ import { CiSearch } from 'react-icons/ci';
 import { MdKeyboardArrowUp, MdKeyboardArrowDown } from 'react-icons/md';
 import { LuDot } from 'react-icons/lu';
 
+import Furniture from './svg/Furniture.svg';
+
 const Header = () => {
   const renderLuDots = () => {
     const luDots = [];
@@ -47,11 +49,7 @@ const Header = () => {
             by professional interior designer.
           </p>
         </div>
-        <img
-          className="h-[666px]"
-          src={'/static/images/furniture.png'}
-          alt="Furniture Image"
-        />
+        <img className="h-[666px]" src={Furniture} alt="Furniture Image" />
         <div
           className="h-32 w-32 absolute bottom-0 right-16
          bg-white bg-opacity-40 backdrop-blur-2xl flex justify-center items-center"
